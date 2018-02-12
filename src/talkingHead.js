@@ -10,6 +10,10 @@ class Song {
   }
 }
 
+var testSong = new Song("testArtist", "testTitle");
+
+console.log(testSong.getTitle());
+
 //Exercise:
 
 //Add a method to the Song class that returns the string "title is {title} by {artist}.
