@@ -11,8 +11,12 @@ class Song {
 }
 
 var testSong = new Song("testArtist", "testTitle");
+var stevieWonder = new Song("Stevie Wonder", "Song");
 
-console.log(testSong.getTitle());
+//console.log(testSong.getTitle());
+//console.log(stevieWonder.getTitle());
+
+export default Song;
 
 //Exercise:
 

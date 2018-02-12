@@ -1,8 +1,10 @@
+import Song from './talkingHead.js';
+
 class LedZepSong extends Song {
 
   //edits go into the args of the constructor and super methods below
-  constructor(){
-    super();
+  constructor(title){
+    super("Led Zeppelin", title);
   }
 }
 

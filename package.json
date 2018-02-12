@@ -13,5 +13,8 @@
     "babel-cli": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
     "eslint": "^4.8.0"
+  },
+  "dependencies": {
+    "jasmine": "^3.0.0"
   }
 }
