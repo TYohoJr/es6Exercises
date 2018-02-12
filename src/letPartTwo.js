@@ -9,7 +9,7 @@
 
 //Do it!
 
-for (i = 1; i <= 5; i++) {
+for (var i = 1; i <= 5; i++) {
   setTimeout(function(){
     console.log(i);
   }, 500);

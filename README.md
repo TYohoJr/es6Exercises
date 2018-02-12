@@ -11,5 +11,9 @@
 9) async.js
 10) asyncHell.js
 
+
+step 1: run "npm install"
+step2: npm install -g babel
+
 to compile, run "npm run compile" 
 you'll have to do this with every edit...
