@@ -9,10 +9,11 @@
 
 //Do it!
 
-for (var i = 1; i <= 5; i++) {
+for (let i = 1; i <= 5; i++) {
   setTimeout(function(){
     console.log(i);
   }, 500);
 }
-
+//const test = "123"
+//test = "1234"
 //lastly, declare a const and try to change it. Checkout the error message.

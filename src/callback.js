@@ -12,3 +12,5 @@ function barf(callback){
 function vomit(){
   console.log("vomit called");
 }
+
+barf(vomit());

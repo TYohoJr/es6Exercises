@@ -4,9 +4,8 @@ var num = 3;
 var backpack = "Jansport";
 var name = "Jens";
 
-//comment out lines 8 and 9
-//var example = "my name is: " + name + ", and I have " + num " + " pieces of pizza in my " + backpack + "backpack." My favorite quote
-//is 'tis a far, far cruel world.'
+//var example = "my name is: " + name + ", and I have " + num + " pieces of pizza in my " + backpack + "backpack." + "My favorite quote
+//is" 'tis a far, far cruel world.'
 console.log(example);
 
 //step 1: make line 9 work by modifying lines 7-9.

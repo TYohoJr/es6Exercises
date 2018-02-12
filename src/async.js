@@ -1,3 +1,5 @@
+
+
 //This might help some understand asynchronous functions. While "asyncSim" is
 //not asynchronous, the callback one passes into it is. 
 
@@ -9,12 +11,15 @@
 
 function asyncSim(callback) {
   setTimeout(() => {
-    callback('this is all the data, do whatever you want to it');
+    callback('this is all the data, do whatever you want to it', 'test');
+      ;
   }, 2000);
 };
 
 //code goes into the function call below
-asyncSim();
+asyncSim((myStr, myStr2) => {
+  console.log(myStr.split(""), myStr2.split(""))
+});
 
 //Part 2: In the callback execution, pass another string as an arg and log that one as well.
 
