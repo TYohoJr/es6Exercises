@@ -13,4 +13,4 @@ function vomit(){
   console.log("vomit called");
 }
 
-barf(vomit());
+barf(vomit);

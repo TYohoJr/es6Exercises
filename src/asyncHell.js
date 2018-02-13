@@ -28,7 +28,6 @@ function queryThirdDoc(callback, err) {
   }, 2000);
 };
 
-
 //Exercise 1: using these functions, generate a string that says 
 // We finally have all our docs - {dumbProp1}, {dumbProp2}, {dumpProp3}
 
